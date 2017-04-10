@@ -9,7 +9,7 @@ open .
 ```
 2. A window will open, and open `httpd.conf` in a text editor.
 3. Search for `AddHandler cgi-script .cgi`and remove the hastag in front of it. Do the same for `AddType text/html .shtml` and `AddOutputFilter INCLUDES .shtml`.
-4. Search and replace `DocumentRoot "/Library/WebServer/Documents"` with `DocumentRoot "/Users/youruser/path-to-your-project-folder"'
+4. Search and replace `DocumentRoot "/Library/WebServer/Documents"` with `DocumentRoot "/Users/youruser/path-to-your-project-folder"`
 
 5. Add hashtag to `Options FollowSymLinks Multiviews` and `MultiviewsMatch Any` and add 
 ```
