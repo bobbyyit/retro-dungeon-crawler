@@ -33,6 +33,9 @@ sudo apachectl start
 sudo apachectl stop
 ```
 
+## Updating the CGI file
+If you made changes to the .c files, compile it before running the app in `/cgi-script`.
+
 
 # Access html files
 ```sh
